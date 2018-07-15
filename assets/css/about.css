@@ -21,9 +21,22 @@ body, html {
     width: 100%;
 }
 
-#header{
-    position: absolute;
-    left: 40%;
+#headerText{
+    /* position: absolute; */
+    /* left: 35%; */
+    margin-left: 35%;
+    margin-top: 0%;
+    z-index: 1000;
+    font-family: 'Raleway', sans-serif;
+    color: palevioletred;
+    opacity: 0.9;
+    font-size: 80px;
+    text-shadow: 5px 5px black;
+  }
+
+  #headerText2 {
+    margin-left: 35%;
+    margin-top: -10%;
     z-index: 1000;
     font-family: 'Raleway', sans-serif;
     color: palevioletred;
@@ -74,33 +87,7 @@ body, html {
     padding: 20px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-}
-  
-  @media all and (transform-3d), (-webkit-transform-3d) {
-      .carousel-fade .carousel-inner > .item.next,
-      .carousel-fade .carousel-inner > .item.active.right {
-        opacity: 0;
-        -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
-      }
-      .carousel-fade .carousel-inner > .item.prev,
-      .carousel-fade .carousel-inner > .item.active.left {
-        opacity: 0;
-        -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
-      }
-      .carousel-fade .carousel-inner > .item.next.left,
-      .carousel-fade .carousel-inner > .item.prev.right,
-      .carousel-fade .carousel-inner > .item.active {
-        opacity: 1;
-        -webkit-transform: translate3d(0, 0, 0);
-                transform: translate3d(0, 0, 0);
-      }
-  }
+
 
   #open {
     position: fixed;
@@ -119,11 +106,14 @@ body, html {
 }
 
 
+
+
 #work1 {
     font-family: 'Raleway', sans-serif;
     height: 35%;
     background-color: rgba(245, 245, 245, 0.8);
     line-height: 150%;
+    margin-right: 5%;
 }
 
 #workButtons {
@@ -213,3 +203,42 @@ img {
 a {
     float: left;
 }
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    #header {
+        font-size: 50px;
+        text-shadow: 2.5px 2.5px black;
+    }
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+  
+  @media all and (transform-3d), (-webkit-transform-3d) {
+      .carousel-fade .carousel-inner > .item.next,
+      .carousel-fade .carousel-inner > .item.active.right {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+      }
+      .carousel-fade .carousel-inner > .item.prev,
+      .carousel-fade .carousel-inner > .item.active.left {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+      }
+      .carousel-fade .carousel-inner > .item.next.left,
+      .carousel-fade .carousel-inner > .item.prev.right,
+      .carousel-fade .carousel-inner > .item.active {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+      }
+  }
