@@ -1,0 +1,166 @@
+/* Sidebar Navigation Styling  */
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#mySidenav {
+    background-color: palevioletred;
+    opacity: 0.9 !important;
+}
+
+.btn-primary {
+    background-color: palevioletred;
+}
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+.card {
+    float: left;
+    margin: 0 auto;
+    margin-left: 1%;
+}
+
+#slideshowRow {
+    margin: 0 auto;
+    margin-top: 20%;
+}
+
+#name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5%;
+    font-size: 135%;
+    color: seashell;
+}
+
+.fa-linkedin {
+    color: gold;
+}
+
+.fa-twitter {
+    color: crimson;
+}
+
+.fa-stack-overflow {
+    color: darkorchid;
+}
+
+.fa-github {
+    color: darkorange;
+}
+
+/* #overlay {
+    position: absolute;
+    bottom: 0;
+    left: 500;
+} */
+
+li {
+    background-color: palevioletred !important;
+}
+
+
+#nav1 {
+    color: seashell;
+}
+
+#nav2, #nav3, #nav4, #nav5 {
+    margin-left: 10%;
+}
+
+#nav2 {
+    color: gold;
+}
+
+#nav3 {
+    color: crimson;
+}
+
+#nav4 {
+    color: darkorchid;
+}
+
+#nav5 {
+    color: darkorange;
+}
+
+a {
+    float: left;
+}
+
+#open {
+    position: fixed;
+    top: 1%;
+    left: 1%;
+    color: palevioletred;
+    opacity: 0.6;
+}
+
+#name1 {
+    font-family: 'Raleway', sans-serif;
+    color: palevioletred;
+    opacity: 0.9;
+    font-size: 80px;
+    margin-bottom: 500px;
+    text-shadow: 5px 5px black;
+}
+
+#title1 {
+    font-family: 'Raleway', sans-serif;
+    color: palevioletred;
+    opacity: 0.9;
+    font-size: 80px;
+    margin-bottom: 450px;
+    text-shadow: 5px 5px black;
+}
+
+body {
+    background-image: url("../images/pink3.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+ }
+
+ #headshot {
+     width: 250px;
+ }
+
